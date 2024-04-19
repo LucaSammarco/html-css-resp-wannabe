@@ -1,4 +1,4 @@
-/*************************************************
+/* ************************************************
     GENERAL STYLES
  *************************************************/
 *,
@@ -127,3 +127,95 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+@media  (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+ /* Change color to verify responsivness */
+    /* h1 {
+        margin-bottom: 3rem;
+        font-size: 2.5rem;
+        color: aqua;
+    } */
+    
+}
+
+@media  (max-width: 480px) {
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+ /* Change color to verify responsivness */
+    /* h1 {
+        margin-bottom: 3rem;
+        font-size: 2.5rem;
+        color: aqua;
+    } */
+    
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+    
+    .lessons .col p{
+        margin-bottom: 3rem;
+    }
+
+    /* .lessons .col img {
+        height: 200px;
+        margin-bottom: 1rem;
+    } */
+    
+    .steps .col {
+        width: 100%;
+
+    }
+
+    .steps .col p{
+        margin-bottom: 3rem;
+    }
+
+
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-left img{
+        margin-bottom: 4rem;
+    }
+    
+    
+    .why-us .col-right {
+        width: 100%;
+    }
+    
+    .why-us .col-right h3{
+        padding-right: 0.2rem;
+    }
+
+    .why-us .container {
+        background-color: black;
+    }
+
+    .steps {
+        /* margin: 3rem 0; */
+        padding: 3rem 0;
+        color: #000000;
+        background: #eebbc3;
+    }
+    
+}

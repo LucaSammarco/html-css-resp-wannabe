@@ -212,10 +212,17 @@ img {
     }
 
     .steps {
-        /* margin: 3rem 0; */
+        margin: 0 0;
         padding: 3rem 0;
         color: #000000;
         background: #eebbc3;
     }
     
+    .why-us {
+        margin-bottom: 0;
+    }
+
+    .why-us h2 {
+        padding-top: 3rem;
+    }
 }
